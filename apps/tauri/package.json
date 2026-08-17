@@ -1,0 +1,15 @@
+{
+  "name": "@deepseek-ai/dsh-tauri-shell",
+  "description": "Tauri desktop shell for DeepSeek Harness (PoC: spawns dsh web sidecar, loads the existing React UI in the OS WebView)",
+  "version": "0.1.0-rc.5",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "tauri": "tauri",
+    "tauri:dev": "tauri dev",
+    "tauri:build": "tauri build"
+  },
+  "devDependencies": {
+    "@tauri-apps/cli": "^2"
+  }
+}
